@@ -8,7 +8,18 @@
 // Includes Quarterback specific functions and attributes.
 class Quarterback : private Player
 {
-	int throwPower;
-	int accuracy;
+	int pocketPasser;
+	int rocketArm;
+	int dualThreat;
+
+public:
+	void setPP(int pocketPasser);
+	int getPP();
+
+	void setRA(int rocketArm);
+	int getRA();
+
+	void setDT(int dualThreat);
+	int getRA();
 };
 

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Positions">
+      <UniqueIdentifier>{9b960870-1845-40e9-b5dc-c6c580d5e04f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,6 +30,9 @@
     <ClCompile Include="Quarterback.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Wide_Reciever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h">
@@ -36,7 +42,10 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Quarterback.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Positions</Filter>
+    </ClInclude>
+    <ClInclude Include="Wide_Reciever.h">
+      <Filter>Header Files\Positions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
